@@ -10,6 +10,10 @@ namespace _06_CSharp_Conversions
     {
         static void Main(string[] args)
         {
+            int x = 10;
+
+            object xObject = (object) x;
+
         }
     }
 }

@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_CSharp_Collections", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_CSharp_Conversions", "..\06_CSharp_Conversions\06_CSharp_Conversions.csproj", "{D2451952-D887-4E4F-AEC7-955F043CBE10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_CSharp_Classes", "..\07_CSharp_Classes\07_CSharp_Classes.csproj", "{EDF1F1F9-0C71-4C15-A226-E9883993EE87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_CSharp_Classes_And_Structures", "..\07_CSharp_Classes\07_CSharp_Classes_And_Structures.csproj", "{EDF1F1F9-0C71-4C15-A226-E9883993EE87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_CSharp_Interfaces", "..\08_CSharp_Interfaces\08_CSharp_Interfaces.csproj", "{13864EF3-C881-40DF-879B-F3405A7F2B63}"
 EndProject

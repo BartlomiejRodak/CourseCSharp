@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DynamicPolymorphism.cs" />
+    <Compile Include="DynamicPolymorphismBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticPolymorphism.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
