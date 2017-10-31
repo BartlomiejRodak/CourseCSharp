@@ -11,14 +11,14 @@ namespace _02_CSharp
         static void Main(string[] args)
         {
             /*------------------------------CASE 1---------------------------*/
-            int x = 5;
+            //int x = 5;
 
-            if (x == 5)
-            {
-                Console.WriteLine("x = 5");
-            }
+            //if (x == 5)
+            //{
+            //    Console.WriteLine("x = 5");
+            //}
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
 
 
@@ -62,6 +62,41 @@ namespace _02_CSharp
 
 
             /*------------------------------CASE 5---------------------------*/
+            //int x = 40;
+
+            //switch (x)
+            //{
+            //    case 10:
+            //        Console.WriteLine("x = 10");
+            //        break;
+
+            //    case 20:
+            //        Console.WriteLine("x = 20");
+            //        break;
+            //}
+
+
+
+            /*------------------------------CASE 6---------------------------*/
+            //int x = 30;
+
+            //switch (x)
+            //{
+            //    case 10:
+            //        Console.WriteLine("x = 10");
+            //        break;
+
+            //    case 20:
+            //        Console.WriteLine("x = 20");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Bad value");
+            //        break;
+            //}
+
+
+
+            Console.ReadKey();
         }
     }
 }
