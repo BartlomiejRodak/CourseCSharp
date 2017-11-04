@@ -42,11 +42,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\AdultAnimal.cs" />
+    <Compile Include="Class\Animal.cs" />
+    <Compile Include="Class\AnimalBase.cs" />
+    <Compile Include="Class\AnimalSecondBase.cs" />
+    <Compile Include="Interface\Animal.cs" />
+    <Compile Include="Interface\AnimalMultipleInterface.cs" />
+    <Compile Include="Interface\IAnimal.cs" />
+    <Compile Include="Interface\IDog.cs" />
+    <Compile Include="Interface\IMammal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Struct\AnimalStruct.cs" />
+    <Compile Include="Struct\AnimalStructBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

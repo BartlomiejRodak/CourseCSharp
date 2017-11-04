@@ -6,7 +6,7 @@ namespace _08_CSharp_Interfaces
     {
         public void Print(IAnimal animal)
         {
-            animal.Cry();
+            animal.SayHello();
             Console.WriteLine("Speed: " + animal.Speed());
         }
     }

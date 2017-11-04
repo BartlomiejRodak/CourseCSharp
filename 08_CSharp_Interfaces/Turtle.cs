@@ -4,7 +4,7 @@ namespace _08_CSharp_Interfaces
 {
     public class Turtle : IAnimal
     {
-        public void Cry()
+        public void SayHello()
         {
             Console.WriteLine("somthing :)");
         }

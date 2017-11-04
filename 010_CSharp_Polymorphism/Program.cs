@@ -17,28 +17,37 @@ namespace _010_CSharp_Polymorphism
             var addingFourNumbers = staticPolymorphism.Add(1, 1, 1, 1);
 
             /*------------------------------CASE 2---------------------------*/
+
+            Case2();
+
+            /*------------------------------CASE 3---------------------------*/
+            // with virtual
+
+            Case3();
+        }
+
+        private static void Case2()
+        {
+            DynamicPolymorphismBase basePolymorphism = new DynamicPolymorphismBase();
+            basePolymorphism.Print();
+
+            DynamicPolymorphism dynamicPolyporphism = new DynamicPolymorphism();
+            dynamicPolyporphism.Print();
+
+            DynamicPolymorphismBase dynamicPolyporphism1 = new DynamicPolymorphism();
+            dynamicPolyporphism1.Print();
+        }
+
+        private static void Case3()
+        {
             DynamicPolymorphismBase basePolymorphism = new DynamicPolymorphismBase();
             var result = basePolymorphism.Add(1, 1);
 
             DynamicPolymorphism dynamicPolyporphism = new DynamicPolymorphism();
             var resultFromDynamic = dynamicPolyporphism.Add(1, 1);
 
-
             DynamicPolymorphismBase dynamicPolyporphism1 = new DynamicPolymorphism();
             var resultFromDynamic1 = dynamicPolyporphism1.Add(1, 1);
-
-            /*------------------------------CASE 3---------------------------*/
-            // without virtual
-
-            // DynamicPolymorphismBase basePolymorphism = new DynamicPolymorphismBase();
-            basePolymorphism.Print();
-
-            // DynamicPolymorphism dynamicPolyporphism = new DynamicPolymorphism();
-             dynamicPolyporphism.Print();
-
-
-            // DynamicPolymorphismBase dynamicPolyporphism1 = new DynamicPolymorphism();
-            dynamicPolyporphism1.Print();
         }
     }
 }

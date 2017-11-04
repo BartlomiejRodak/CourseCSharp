@@ -10,10 +10,38 @@ namespace _06_CSharp_Conversions
     {
         static void Main(string[] args)
         {
+            /*------------------------------CASE 1---------------------------*/
+            double result = 10 / 3;
+
+            double goodResult = 10f / 3;
+
+
+            double goodResult2 = 10.0 / 3;
+            double goodResult3 = 10 / 3.0;
+
+            /*------------------------------CASE 2---------------------------*/
             int x = 10;
 
-            object xObject = (object) x;
+            // won't compile
+            // string y = (string) x;
 
+            object xAsObject = (object)x;
+
+            int xAgain = (int)xAsObject;
+
+            /*------------------------------CASE 3---------------------------*/
+            string xAsPossibleString = xAsObject as string;
+
+            /*------------------------------CASE 4---------------------------*/
+            if (xAsObject is string castedToString)
+            {
+                Console.WriteLine(castedToString.Length);
+            }
+            /*------------------------------CASE 5---------------------------*/
+            string xAsString = (string)xAsObject;
+
+
+            // int y = "sdada";
         }
     }
 }

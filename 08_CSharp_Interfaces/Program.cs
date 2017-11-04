@@ -11,21 +11,41 @@ namespace _08_CSharp_Interfaces
         static void Main(string[] args)
         {
             /*------------------------------CASE 1---------------------------*/
+            var turtleExample = new Turtle();
+            turtleExample.SayHello();
+            var speedResult = turtleExample.Speed();
+
+            var dogExample = new Dog();
+            dogExample.SayHello();
+            speedResult = dogExample.Speed();
+
+            var catExample = new Cat();
+            catExample.SayHello();
+            speedResult = catExample.Speed();
+
+            var printerHelper = new AnimalInformationPrinterBad();
+            
+            //we want to pass class and print information
+            printerHelper.Print(turtleExample);
+            printerHelper.Print(dogExample);
+            printerHelper.Print(catExample);
+
+            /*------------------------------CASE 2---------------------------*/
             IAnimal turtle = new Turtle();
-            turtle.Cry();
+            turtle.SayHello();
             var speed = turtle.Speed();
 
 
             IAnimal dog = new Dog();
-            dog.Cry();
+            dog.SayHello();
             speed = dog.Speed();
 
 
             IAnimal cat = new Cat();
-            cat.Cry();
+            cat.SayHello();
             speed = cat.Speed();
 
-            /*------------------------------CASE 2---------------------------*/
+            /*------------------------------CASE 3---------------------------*/
             var printer = new AnimalInformationPrinter();
 
             // we can generalize calls

@@ -1,8 +1,8 @@
-﻿namespace _08_CSharp_Interfaces
+﻿namespace _09_CSharp_Inheritance
 {
     public interface IAnimal
     {
-        void SayHello();
+        void Cry();
         int Speed();
     }
 }
