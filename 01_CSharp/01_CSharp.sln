@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_CSharp_Interfaces", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_CSharp_Inheritance", "..\09_CSharp_Inheritance\09_CSharp_Inheritance.csproj", "{563DBA66-8DC7-4C8F-B452-172E38D389A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_CSharp_Polymorphism", "..\010_CSharp_Polymorphism\10_CSharp_Polymorphism.csproj", "{B362F1BD-A1EC-4C5C-8AAD-A214CA9864DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_CSharp_Polymorphism", "..\10_CSharp_Polymorphism\10_CSharp_Polymorphism.csproj", "{B362F1BD-A1EC-4C5C-8AAD-A214CA9864DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

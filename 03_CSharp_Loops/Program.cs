@@ -52,8 +52,6 @@ namespace _03_CSharp_Loops
             //    Console.WriteLine("Number..." + i);
             //}
 
-
-
             Console.ReadKey();
         }
     }
