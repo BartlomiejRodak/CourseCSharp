@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using _09_CSharp_Inheritance.Class;
+using _09_CSharp_Inheritance.Interface;
 
 namespace _09_CSharp_Inheritance
 {
@@ -13,9 +14,7 @@ namespace _09_CSharp_Inheritance
         {
             /*------------------------------CASE 1---------------------------*/
             var animal = new AnimalMultipleInterface();
-
-            animal.Test();
-
+            
             // public in base
             animal.SayHello();
 
