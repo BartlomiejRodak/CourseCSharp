@@ -49,5 +49,11 @@ namespace _010_CSharp_Polymorphism
             DynamicPolymorphismBase dynamicPolyporphism1 = new DynamicPolymorphism();
             var resultFromDynamic1 = dynamicPolyporphism1.Add(1, 1);
         }
+
+        ////////////////TODO:////////////////////
+        //Create 3 classes "secretary", "bodyguard", "accountant" inherited from "employee" class. 
+        //Each class should have a "work" method that will display information about a particular employee. 
+        //E.G. "bodyguard is working.."
+        //Add each employee to the list then iterate through the list and call method - "work".
     }
 }

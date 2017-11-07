@@ -45,8 +45,8 @@
     <Compile Include="AnimalInformationPrinterBad.cs" />
     <Compile Include="Cat.cs" />
     <Compile Include="Dog.cs" />
-    <Compile Include="IAnimal.cs" />
     <Compile Include="AnimalInformationPrinter.cs" />
+    <Compile Include="IAnimal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Turtle.cs" />
