@@ -7,7 +7,7 @@
             // the same rules
 
             // public property
-            var name = Name;
+            var name = base.Name;
 
             // protected property
 

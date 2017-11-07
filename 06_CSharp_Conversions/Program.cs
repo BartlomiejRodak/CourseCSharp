@@ -32,6 +32,11 @@ namespace _06_CSharp_Conversions
             /*------------------------------CASE 3---------------------------*/
             string xAsPossibleString = xAsObject as string;
 
+            if (xAsPossibleString != null)
+            {
+
+            }
+
             /*------------------------------CASE 4---------------------------*/
             if (xAsObject is string castedToString)
             {
@@ -40,6 +45,15 @@ namespace _06_CSharp_Conversions
             /*------------------------------CASE 5---------------------------*/
             string xAsString = (string)xAsObject;
 
+            /*------------------------------CASE 6---------------------------*/
+
+            int y = 10;
+            object yAsObject = y;
+
+            double yAsDouble = (double) yAsObject;
+            double yAsDoubleGood = (double)(int) yAsObject;
+
+            /*------------------------------CASE 7---------------------------*/
 
             // int y = "sdada";
         }

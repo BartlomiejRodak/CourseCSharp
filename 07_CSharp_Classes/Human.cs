@@ -13,7 +13,7 @@ namespace _07_CSharp_Classes
         {
             Console.WriteLine("Somthing");
         }
-
+       
         protected void SayGoodbye()
         {
             Console.WriteLine("Goodbye");
