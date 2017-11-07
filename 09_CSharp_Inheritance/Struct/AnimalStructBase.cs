@@ -4,9 +4,9 @@ namespace _09_CSharp_Inheritance.Struct
 {
     public struct AnimalStructBase 
     {
-        public void Cry()
+        public void SayHello()
         {
-            Console.WriteLine("Meow");
+            Console.WriteLine("Grrr...");
         }
     }
 }
